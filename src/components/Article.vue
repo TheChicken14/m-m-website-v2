@@ -16,6 +16,8 @@
               <v-icon>mdi-close</v-icon>
             </v-btn>
             <v-toolbar-title>{{ article.title }}</v-toolbar-title>
+            <v-spacer></v-spacer>
+            <v-chip>Artikel door {{ article.by }}</v-chip>
           </v-toolbar>
           <v-container class="article">
             <div class="content">
@@ -58,6 +60,7 @@ export default {
   padding-top: 3em;
   padding-right: 5em;
   padding-left: 5em;
+  padding-bottom: 4em;
 }
 .top {
   width: 100%;
