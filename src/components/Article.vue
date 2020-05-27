@@ -19,7 +19,6 @@
           </v-toolbar>
           <v-container class="article">
             <div class="content">
-              <h1 class="content-title">{{ article.title }}</h1>
               <VueMarkdown>{{ article.text }}</VueMarkdown>
             </div>
           </v-container>
@@ -55,6 +54,10 @@ export default {
 };
 </script>
 <style scoped>
+.article {
+  padding-right: 5em;
+  padding-left: 5em;
+}
 .top {
   width: 100%;
   height: 100%;
