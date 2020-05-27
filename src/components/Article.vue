@@ -55,6 +55,7 @@ export default {
 </script>
 <style scoped>
 .article {
+  padding-top: 3em;
   padding-right: 5em;
   padding-left: 5em;
 }
